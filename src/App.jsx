@@ -50,7 +50,7 @@ function App() {
           // activePlayerSymbol={activePlayer}
         />
       </div>
-      <Log />
+      <Log turns={gameTurns} />
     </main>
   );
 }
